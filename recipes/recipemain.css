@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 4px;
 }
 
 /*.recipecontainer div{
@@ -19,6 +20,7 @@
 
 .imgdiv{
     width:200px;
+    margin: 0px auto;
 }
 
 h1,h2,h3,p,ul,ol{
@@ -30,6 +32,18 @@ li{
 }
 
 .ingredientlist{
-    width:300px;
+    width: 300px;
     flex: inherit;
+}
+
+.ingredientlist li{
+    margin-bottom: 5px;
+}
+
+.stepslist{
+    width: 300px;
+}
+
+.stepslist li{
+    margin-bottom: 10px;
 }
