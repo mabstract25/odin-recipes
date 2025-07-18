@@ -40,10 +40,26 @@ li{
     margin-bottom: 5px;
 }
 
+
+
 .stepslist{
     width: 300px;
 }
 
+.stepslist ol{
+    counter-reset:li;
+}
+
 .stepslist li{
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    display: inline-block;
+    position: relative;
+}
+
+.stepslist li::before{
+    content: counter(li);
+    counter-increment: li;
+    top: -50px;
+    left: 50%;
+    position: absolute;
 }
