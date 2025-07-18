@@ -1,5 +1,12 @@
+.pagecontainer{
+    background-color: lightblue;
+}
+
 .recipecontainer{
-    width:100%
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
 }
 
 .recipecontainer div{
@@ -11,12 +18,16 @@ h1,h2,p,ul,ol,li{
 }
 
 .ingredients h3{
-    flex: 2;
+    flex: initial;
 }
 
 .ingredients ul{
     width:300px;
-    flex: 1 0 auto;
+    flex: initial;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ingredients #column3{
+    flex:1;
 }
