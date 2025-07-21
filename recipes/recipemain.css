@@ -13,11 +13,6 @@
     gap: 4px;
 }
 
-/*.recipecontainer div{
-    display:flex;
-    flex-direction: column;
-}*/
-
 .imgdiv{
     width:200px;
     margin: 0px auto;
@@ -33,7 +28,6 @@ li{
 
 .ingredientlist{
     width: 300px;
-    flex: inherit;
 }
 
 .ingredientlist li{
