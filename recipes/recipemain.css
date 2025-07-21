@@ -48,18 +48,32 @@ li{
 
 .stepslist ol{
     counter-reset:li;
+    padding:0px;
 }
 
 .stepslist li{
-    margin-bottom: 60px;
+    margin: 2.5em 0;
     display: inline-block;
+    vertical-align: top;
     position: relative;
+    text-align: center;
+    line-height:1.2em;
 }
 
 .stepslist li::before{
     content: counter(li);
     counter-increment: li;
-    top: -50px;
-    left: 50%;
+    top: -2.5em;
+    left: 45%;
     position: absolute;
+    box-sizing:border-box;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding-top:3px;
+   
+    
+    
 }
